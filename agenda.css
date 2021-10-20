@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+}
+*{
+        text-decoration: none;
+        list-style: none;
+}
+/*TABLEAU*/
+
+.titre{
+        margin-left: 2%;
+}
+
+
+td{
+        border: 1px solid black;
+        width: 80px;
+        height: 40px;
+}
+
+table{
+        border-collapse: collapse;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+}
+
+.jours{
+        background-color: blueviolet;
+}
+
+.tr{
+        display: flex;
+        justify-content: center;
+}
+
+.paires{
+        background-color: cadetblue;
+}
+
+.impaires{
+        background-color: darkgray;
+}
+
+/*FOOTER*/
+
+#footer{
+        background-color: lightblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 3%;
+        position: fixed bottom 0 ;
+}
+
+
+.nav2 a{
+     color: black;  
+     line-height: 2rem; 
+     
+    
+}
+
+.nav2 a, li:hover{
+        padding-left: 5%;
+}
+
+/*HEADER*/
+
+
+
+.nav1 a{
+        color: black;  
+        line-height: 2rem; 
+        
+       
+   }
+   
+.nav1 a, li:hover{
+        padding-left: 5%;
+}
+
+
+
+
+
+ .nav1  { 
+        display: flex;
+        flex-direction: row;
+        padding: 20px 10px ;   
+        margin: 30px 40px;
+        gap: 40px;      
+} 
+
+
+.nav{
+  margin-left: 5%;
+}
+
+.header-b{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+background-color: lightblue;
+margin-bottom: 10%;
+}
+
+/* FORMULAIRE */
+
+form {
+        padding-top: 10%;
+        margin: 0 auto;
+        width: 400px;
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+}
+      
+form div + div {
+        margin-top: 1em;
+}
+      
+label {
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+}
+      
+input, textarea {
+        font: 1em sans-serif;
+        width: 300px;
+        box-sizing: border-box;
+        border: 1px solid #999;
+}
+      
+input:focus, textarea:focus {
+        border-color: #000;
+}
+      
+      textarea {
+        vertical-align: top;
+        height: 5em;
+}
+      
+      .button {
+        padding-left: 90px;
+}
+      
+      button {
+        margin-left: .5em;
+}
+
+.boutton{
+        margin-bottom: 8%;
+        margin-top: 3%;
+        display: flex;
+        justify-content: center;
+}
+
